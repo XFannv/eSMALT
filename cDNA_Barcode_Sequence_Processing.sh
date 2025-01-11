@@ -225,3 +225,4 @@ tr " " "0" > cell.n2.bin.fa
 
 # iqtree
 iqtree -s cell.n2.bin.fa -m GTR2+FO+G4 -B 1000 -nt 4
+
