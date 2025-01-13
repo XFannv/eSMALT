@@ -3,7 +3,7 @@
 ccs -j 24 --by-strand --min-passes 3 --min-rq 0.95 --min-length 800 --max-length 1800 \
 subreads.bam bystrand_ccs.bam 
 
-samtools fastq bystrand_ccs.bam  >> ccs.fq
+samtools fastq bystrand_ccs.bam  > ccs.fq
 
 ## mapping--------------------------------------------------------------
 
